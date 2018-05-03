@@ -2,24 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width="device-width, initial-scale=1.0">
-    <title>Park it</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/park-it.css">
+    <link type="text/css" rel="stylesheet" href="styles/park-it-android.css">
+
+    <title>Park-It</title>
 </head>
 <body>
-    <div id="navbar">
-        <button id="park">Park</button>
-        Park It
-        <button id="retrieve">Find</button>
+<div id="navbar">
+    <button id="park">Park</button>
+    Park It
+    <button id="retrieve">Find</button>
+</div>
+<div id="container">
+
+    <div id="instructions">
+        <p>Click the park button to set your parking location.</p>
+        <p>Click the find button to retrieve your parking location</p>
+        <p class="center"><button id ="gotIt">Got It!</button></p>
     </div>
 
-<div id="container">
-    <div id="instructions">
-        <p>Click the Park button to set your parking location.</p>
-        <p>Click the Find button to retrieve your paarking location.</p>
-        <p class="center"><button id="gotIt">Got it!</button></p>
-    </div>
-    <div id="map"> Map here</div>
-    <div id="directions">Directions here</div>
+    <div id="map">Map Here</div>
+    <div id="directions"> Directions Here</div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/park-it.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdc9mmDFlMi-6uN7E-7AztDKcxNPNH9e0&callback=initMap">
+</script>
 </body>
 </html>
