@@ -1,3 +1,16 @@
+$("#park").click(function ()
+{
+    alert("set parking location");
+});
+$("#find").click(function ()
+{
+    alert("set parking location");
+});
+$("#gotIt").click(function ()
+{
+    // $("#instructions").hide();
+});
+
 function initMap()
 {
     var grc = {lat: 47.3135852, lng:-122.1800072};
