@@ -2,13 +2,13 @@ $("#park").click(function ()
 {
     alert("set parking location");
 });
-$("#find").click(function ()
+$("#retrieve").click(function ()
 {
-    alert("set parking location");
+    alert("get parking location");
 });
 $("#gotIt").click(function ()
 {
-    // $("#instructions").hide();
+     $("#instructions").hide();
 });
 
 function initMap()
