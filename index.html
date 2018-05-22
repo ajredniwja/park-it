@@ -5,38 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/park-it.css">
     <link type="text/css" rel="stylesheet" href="styles/park-it-android.css">
-
+    <!--<link type="text/css" rel="stylesheet" href="styles/park-it-ios.css">-->
     <title>Park-It</title>
-    <style>
-        #map
-        {
-            height: 50vh;
-            width: 50vw;
-        }
-    </style>
 </head>
-
 <body>
-<div id="navbar">
-    <button id="park">Park</button>
-    Park It
-    <button id="retrieve">Find</button>
-</div>
-<div id="container">
 
-    <div id="instructions">
-        <p>Click the park button to set your parking location.</p>
-        <p>Click the find button to retrieve your parking location</p>
-        <p class="center"><button id ="gotIt">Got It!</button></p>
+    <div id="navbar">
+        <button id="park">Park</button>
+        Park It
+        <button id="retrieve">Find</button>
     </div>
 
-    <div id="map"></div>
-    <div id="directions"> Directions Here</div>
-</div>
+    <div id="container">
+        <div id="instructions">
+            <p>Click the park button to set your parking location.</p>
+            <p>Click the find button to retrieve your parking location</p>
+            <p class="center"><button id ="gotIt">Got It!</button></p>
+        </div>
+        <div id="map">Map Here</div>
+        <div id="directions"> Directions Here</div>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="js/park-it.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdc9mmDFlMi-6uN7E-7AztDKcxNPNH9e0&callback=initMap">
-</script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/park-it.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVmLO8qy8h6vpRWqLCP-4gcPbvh_7ETzo&callback=initMap"></script>
 </body>
 </html>

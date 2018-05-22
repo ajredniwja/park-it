@@ -1,10 +1,8 @@
-body
-{
-    font-size : 18pt;
+body {
+    font-size: 18pt;
 }
 
-#navbar
-{
+#navbar {
     width: 100%;
     padding: 15px 5px;
     font-size: 20pt;
@@ -15,33 +13,28 @@ body
     z-index: 10;
 }
 
-#park
-{
+#park {
     float: left;
 }
 
-#retrieve
-{
+#retrieve {
     float: right;
 }
 
-button
-{
+button {
     padding: 5px 10px;
     margin: 0px 15px;
-    font-size: 14pt;
+    font-size: 14px;
 }
 
-#container
-{
+#container {
     position: absolute;
     top: 60px;
     left: 0px;
     width: 100%;
 }
 
-#instructions
-{
+#instructions {
     position: relative;
     width: 90%;
     margin: 10px auto;
@@ -49,8 +42,7 @@ button
     font-size: 17pt;
 }
 
-#map
-{
+#map {
     position: relative;
     height: 320px;
     width: 90%;
@@ -58,8 +50,7 @@ button
     padding: 0px 10px;
 }
 
-#directions
- {
+#directions {
     position: relative;
     height: auto;
     width: 90%;
@@ -67,8 +58,6 @@ button
     padding: 10px;
 }
 
-.center
-{
+.center {
     text-align: center;
 }
-
